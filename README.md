@@ -57,16 +57,20 @@ _NOTE: Do not hesitate to change playback speed on youtube to suit your needs._
 
 
 ## GNU/Linux Tooling
-- mention a "core set" (`cat`, `find`, `sed`, `grep`, `
-- compile a couple "awesome lists"
+- mention a "core set" (`cat`, `find`, `sed`, `grep`, `awk`, `tee`)
+- TODO: compile a couple "awesome lists"
+
+## Operating Systems
+- not going to talk much about this ... just some things to keep in mind
+- be prepared to work and deploy things on various operating systems
+- Debian-based distributions like Ubuntu are very commonly chosen for deploying microservices
+- some are lightweight and security focused (e.g. Alpine), others meant for enterprise-level stability (e.g. CentOS)
+- using containers for development can allow you to match the runtime environment of your production code
+- the more comfortable you are working across different operating systems, the easier time you will have when thrown into unfamiliar environments
 
 ---
 # Operationalization
-Taking your prototypes to production.
-
-
-
-here is something that talks most of the the above: https://www.jamesserra.com/archive/2015/08/relational-databases-vs-non-relational-databases/
+_Taking your prototypes to production._
 
 ## container technologies
 ### docker, containerd, podman
@@ -74,6 +78,9 @@ here is something that talks most of the the above: https://www.jamesserra.com/a
 ### kubernetes
 
 ## data access
+- [Overview of Databases (ARTICLE)](https://www.jamesserra.com/archive/2015/08/relational-databases-vs-non-relational-databases/)
+
+TODO: fill in some helpful links on topics below
 ### relational
 - postgres, mariadb, mysql, find something that discusses all these and link to it here.
 - basic principles of querying
@@ -84,14 +91,22 @@ here is something that talks most of the the above: https://www.jamesserra.com/a
 - object storage (s3)
 - names of technologies for this (mongo)
 
-### hot storage
-- AWS, GCP, what are they called in these platforms?
-- [10 Things You Might Not Know About S3 (ARTICLE)](https://www.sumologic.com/insight/10-things-might-not-know-using-s3/)
+- hot storage
+  - _expensive storage, cheap access_
+  - AWS, GCP, what are they called in these platforms?
+  - [10 Things You Might Not Know About S3 (ARTICLE)](https://www.sumologic.com/insight/10-things-might-not-know-using-s3/)
 
-### warm storage
+- cold storage
+  - _cheaper storage, more expensive access_
 
-### cold storage
+- warm storage
+  - _middle ground between hot and cold_
 
+- provisioned vs elastic storage
+  - filesystem and OS has to live somewhere, usually SSD hardware, fast IO, no bandwidth required internally to access storage. Very expensive to scale this. usually provisioned as part of the class of compute, you get what you get at that price point and your app better deal with it.
+  - can mount other storage types to your compute instance with separate pricing model and features like snapshotting, pre-allocated storage that you can scale as you need to (e.g. EBS)
+  - (unadvised) can mount s3 storage as a filesystem
+  - there may exist options that only make you pay for what you use, but at a higher rate (e.g. EFS on AWS, an elastic file storage service)
 
 ## microservices architecture
 - Link to fowler here
