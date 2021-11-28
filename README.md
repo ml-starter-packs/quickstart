@@ -7,7 +7,9 @@ Get started with ML Architecture at Scale by familiarizing yourself with some fo
 port examples from https://www.mathematicalmichael.com/resources/machinelearning/
 
 - [The Essence of Linear Algebra (PLAYLIST)](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
-- 
+- [The Essence of Calculus (PLAYLIST)](https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr)
+- [Neural Network Basics (PLAYLIST)](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)
+
 
 ---
 # Software Development
@@ -28,6 +30,19 @@ _NOTE: Do not hesitate to change playback speed on youtube to suit your needs._
 - [Optimizations: Cache and Branch-Predictability (VIDEO)](https://www.youtube.com/watch?v=EmzdmqUWq3o)
 
 - [Features: New In Python 3.10 (PLAYLIST)](https://www.youtube.com/playlist?list=PLJ_usHaf3fgOp9XxbwVNkbyp1g72QQI6m)
+
+- [Classes: Factory Pattern, Plugin Architecture (VIDEO)](https://www.youtube.com/watch?v=iCE1bDoit9Q)
+
+- [Optimizations: Removing "code smell" / bad practices (VIDEO)](https://www.youtube.com/watch?v=LrtnLEkOwFE)
+
+- [Features: Decorators (VIDEO)](https://www.youtube.com/watch?v=r7Dtus7N4pI)
+
+- [Optimizations: Speed up slow code: `async` / `await` (VIDEO)](https://www.youtube.com/watch?v=m_a0fN48Alw)
+
+
+## GNU/Linux Tooling
+- mention a "core set" (`cat`, `find`, `sed`, `grep`, `
+- compile a couple "awesome lists"
 
 
 ## data access
@@ -65,3 +80,34 @@ Taking your prototypes to production.
 ### warm storage
 
 ### cold storage
+
+## microservices architecture
+
+## cloud providors
+
+### auto-scaling
+- GCP: "Cloud Run"
+- AWS: "Elastic Beanstalk"
+- Azure: 
+
+### VM instances
+- AWS: EC2
+- GCP: Compute Engine
+- Azure: 
+
+## infrastructure as code
+- cross platform: Terraform
+- AWS: Cloud Formation
+- GCP: Cloud Build [IaC](https://cloud.google.com/recommender/docs/tutorial-iac)
+- Azure: Azure Resource Manager [IaC](https://docs.microsoft.com/en-us/devops/deliver/what-is-infrastructure-as-code)
+
+
+## ml lifecycle
+[Martin Fowler's Article on Continuous Delivery for ML](https://martinfowler.com/articles/cd4ml.html)
+
+### tracking
+- [Martin Fowler](https://martinfowler.com/articles/cd4ml.html#ExperimentsTracking)
+- [MLFlow with Docker-Compose](https://github.com/ml-starter-packs/mlflow-docker-compose)
+
+### testing
+
