@@ -109,7 +109,8 @@ TODO: fill in some helpful links on topics below
   - there may exist options that only make you pay for what you use, but at a higher rate (e.g. EFS on AWS, an elastic file storage service)
 
 ## microservices architecture
-- Link to fowler here
+- [Martin Fowler](https://www.martinfowler.com/articles/microservices.html)
+- [Wikipedia](https://en.wikipedia.org/wiki/Service-oriented_architecture)
 
 ## cloud providors
 
@@ -142,4 +143,5 @@ TODO: fill in some helpful links on topics below
 - [MLFlow with Docker-Compose](https://github.com/ml-starter-packs/mlflow-docker-compose)
 
 ### testing
-
+- pytest, unit test
+- [Types of Testing (Atlassian) (ARTICLE)](https://www.atlassian.com/continuous-delivery/software-testing/types-of-software-testing)
