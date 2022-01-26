@@ -21,6 +21,16 @@ Get started with ML Architecture at Scale by familiarizing yourself with some fo
 
 ---
 # Software Development
+
+## git 
+
+- [How to use Git and Github (2021) (Fireship.io) (VIDEO)](https://www.youtube.com/watch?v=HkdAHXoRtos)
+
+- [Git & Github for Beginners (FreeCodeCamp) (VIDEO)](https://www.youtube.com/watch?v=RGOj5yH7evk)
+
+- [13 Advanced Git Tips and Tricks (Fireship.io) (VIDEO)](https://www.youtube.com/watch?v=ecK3EnyGD8o)
+
+
 ## python
 
 _NOTE: Do not hesitate to change playback speed on youtube to suit your needs._
