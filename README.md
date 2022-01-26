@@ -30,6 +30,9 @@ Get started with ML Architecture at Scale by familiarizing yourself with some fo
 
 - [13 Advanced Git Tips and Tricks (Fireship.io) (VIDEO)](https://www.youtube.com/watch?v=ecK3EnyGD8o)
 
+- [Interactive Game to Learn Git Branching (WEB APP)](https://learngitbranching.js.org/?locale=en_US)
+
+- [Another Game for Git (Desktop App)](https://ohmygit.org/)
 
 ## python
 
