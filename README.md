@@ -72,6 +72,7 @@ _NOTE: Do not hesitate to change playback speed on youtube to suit your needs._
 ## GNU/Linux Tooling
 - mention a "core set" (`cat`, `find`, `sed`, `grep`, `awk`, `tee`)
 - TODO: compile a couple "awesome lists"
+- To avoid freezing when RAM is low, see [Adding swap space](https://linuxize.com/post/how-to-add-swap-space-on-ubuntu-20-04/)
 
 ## Operating Systems
 - not going to talk much about this ... just some things to keep in mind
@@ -149,7 +150,7 @@ TODO: fill in some helpful links on topics below
 
 ### training
 - [Martin Fowler](https://martinfowler.com/articles/cd4ml.html#ReproducibleModelTraining)
-- 
+
 
 ### tracking
 - [Martin Fowler](https://martinfowler.com/articles/cd4ml.html#ExperimentsTracking)
