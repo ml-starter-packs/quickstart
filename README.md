@@ -66,8 +66,6 @@ _NOTE: Do not hesitate to change playback speed on youtube to suit your needs._
 
 - [Optimizations: Looping in Python (MCoding) (VIDEO)](https://www.youtube.com/watch?v=Qgevy75co8c)
 
-- [Advanced: Exceptions, Logging, Multiprocessing, Iterators, and more! (see description for timestamps) (VIDEO)](https://www.youtube.com/watch?v=tdn9_MZ0lN4)
-
 
 ## GNU/Linux Tooling
 - mention a "core set" (`cat`, `find`, `sed`, `grep`, `awk`, `tee`)
